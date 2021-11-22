@@ -66,6 +66,7 @@ const Rating = ({ value, text, color }) => {
 
 Rating.defaultProps = {
   color: '#f8e000',
+  value: 0
 }
 
 Rating.propTypes = {
